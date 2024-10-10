@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* 横スクロールを防止 */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2C5549;
+    color: #C7BDB5;
+}
+
+/* Hannariフォント適用 */
+.wf-hannari {
+    font-family: "Hannari";
+}
+
+.hellow {
+    width: 100%;
+    background-color: #2C5549;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 8%;
+}
+
+.title {
+    color: #C7BDB5;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #AF8C68;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: #C7BDB5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover {
+    color: #AF8C68;
+}
+
+.btn {
+    background-color: #AF8C68;
+    color: #C7BDB5;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    border-radius: 20px;
+    transform: scale(1.2);
+}
+
+/* レイアウト調整 */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    width: 100%; /* コンテンツがはみ出さないように100%に設定 */
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px; /* テキストと画像の間に広めのスペースを追加 */
+    text-align: left; /* テキストを左寄せにして整える */
+}
+
+/* 見出しのスタイル */
+h1, h3, h4 {
+    color: #C7BDB5;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+/* フォームのスタイル */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+form input[type="email"], form input[type="submit"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+form input[type="submit"] {
+    background-color: #AF8C68;
+    color: #C7BDB5;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+form input[type="submit"]:hover {
+    border-radius: 20px;
+    transform: scale(1.1);
+}
+
+/* 画像のスタイル */
+.img {
+    width: 450px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1F3E34;
+    color: #C7BDB5;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #1B5544;
+}
+
+.portfolio {
+    background-color: #2C5549;
+    width: 100%;
+    padding: 100px 0px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1F3E34;
+    color: #C7BDB5;
+}
+
+
+.about{
+	width: 100%;
+	padding: 100px 0;
+	background-color: #1B5544;
+}
+
+
+
+.about-text{
+	width: 550px;
+
+}
+
+.main{
+	width: 1130px;
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.img2{
+	width: 300px;
+    padding: 10ox;
+    transform: translateY(5%) 
+
+}
+
+.about-text h2 {
+color: #C7BDB5;
+font-size: 75px;
+margin-bottom: 20px;
+}
+
+.about-text h5 {
+	color: #C7BDB5;
+	letter-spacing: 1px;
+	font-size: 22px;
+	margin-bottom: 25px;
+
+}
+
+.about-text p{
+	color: #C7BDB5;
+	letter-spacing: 1px;
+	line-height: 28px;
+	margin-bottom: 45px;
+	font-size: 20px;
+}
+
+button {
+	background-color: #AF8C68;
+	padding: 13px 30px;
+	color: #C7BDB5;
+	font-weight: bold;
+	border-radius: 30px;
+	transition: all 0.3s;
+	margin: 0 auto;
+}
+
+button:hover{
+	background-color: transparent;
+	border: 2px solid;
+	cursor: pointer;
+}
+
+h2,h5,p,h6{
+	font-family: "Hannari";
+}
+
+
+h6{
+	color: #C7BDB5;
+font-size: 65px;
+margin-bottom: 18px;
+}
+
+.portfolio{
+	background-color: #2C5549;
+	width: 100px%;
+	padding: 100px 0px;
+}
+
+
+
+
+.title h2{
+color: ＃C7BDB5;
+font-size: 75px;
+margin: 30px auto;
+text-align: center;
+} 
+
+
+
+
+
+
+
+
+
+
